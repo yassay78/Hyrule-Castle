@@ -74,7 +74,7 @@ func main() {
 				fmt.Println("Action inconnue, vous passez votre tour.. ")
 			}
 
-			// Verif : L'ennemi est il mort ?
+			// Verif l'ennemi est il mort ?
 			if enemy.Hp <= 0 {
 				fmt.Printf("Le %s est vaincu !\n", enemy.Name)
 				break // On sort de la boucle de combat on passe à l'etage suivant
