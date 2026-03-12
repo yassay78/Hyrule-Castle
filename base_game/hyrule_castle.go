@@ -110,11 +110,11 @@ func main() {
 		}
 
 		if p.Hp <= 0 { 
-			fmt.Printf("\n%s💀 GAME OVER... %s s'est effondré.%s\n", Red, p.Name, Reset)
+			fmt.Printf("\n%sGAME OVER... %s s'est effondré.%s\n", Red, p.Name, Reset)
 			return 
 		}
 		fmt.Printf("\n%s✅ Énnemi vaincu !%s\n", Green, Reset)
 		time.Sleep(1 * time.Second)
 	}
-	fmt.Printf("\n%s🌟 VICTOIRE ! TU EST NOTRE HERO ! 🌟%s\n", Yellow, Reset)
+	fmt.Printf("\n%s🌟🌟🌟🌟 VICTOIRE ! TU EST NOTRE HERO ! 🌟🌟🌟🌟%s\n", Yellow, Reset)
 }
